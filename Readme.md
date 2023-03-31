@@ -61,8 +61,6 @@ If no errors are found during compilation, use the following command to run the 
 java %(your variable name)% StudentHousing
 ``` 
 
-* Close the application with either the window's exit button (does not save data) or the Save and Exit button.
-
 ## Known Issues and Unimplemented Features
 
 * Application window cannot be resized.
