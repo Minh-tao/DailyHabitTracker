@@ -200,7 +200,7 @@ public class DailyHabitTracker extends Application
 
     public Label createTableTitle()
     {
-        Label tableTitle = new Label("Today's to-do List");
+        Label tableTitle = new Label("This Day's To-do List");
 
         Font font = new Font("Calibri", 18);
         tableTitle.setFont(font);
@@ -317,7 +317,7 @@ public HBox createCurrDate(VBox calendar) {
     currDateField = new TextField(currDate.toString());
     currDateField.setEditable(false);
 
-    Label currDateLabel = new Label("Current Date:");
+    Label currDateLabel = new Label("Today is:");
     HBox currDateBox = new HBox(currDateLabel, currDateField);
 
     currDateBox.setMargin(currDateLabel, MARGINS_CURR_DATE);
@@ -345,6 +345,8 @@ public HBox createCurrDate(VBox calendar) {
                                 setDisable(true);
                                 setStyle("-fx-background-color: #dddddd;");
                             }
+
+                            // Hardcoded date cell coloring for demonstration purposes
 
                             if (item.isEqual(LocalDate.now().minusDays(5)))
                             {
@@ -560,7 +562,7 @@ public VBox createEndButton(VBox calendar)
         pbar.setProgress(0);
     }
 
-/* LINK Prepopulate Database */
+/* LINK Prepopulate Database with hardcoded data for demonstration */
 /* ================================================================================================== */
     private void populateDatabase() {
         ObservableList<Task> lowCompletion = FXCollections.observableArrayList();
@@ -595,7 +597,6 @@ public VBox createEndButton(VBox calendar)
         highCompletion3.add(new Task("Watch 20 minutes of the lecture videos", true));
         database.put(LocalDate.now().minusDays(1), highCompletion3);
 
-
     }
 
 
@@ -612,8 +613,6 @@ public VBox createEndButton(VBox calendar)
         private StringProperty name;
         private BooleanProperty isCompleted;
         //private ObjectProperty<LocalDate> dateCreated;
-
-        
 
         public Task(String name, boolean completed, LocalDate date) 
         {
