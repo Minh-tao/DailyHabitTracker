@@ -29,13 +29,15 @@ A desired feature of the application is to color-code date squares on the calend
 
 ### Installing
 
+* [Install Java JDK](https://www.oracle.com/java/technologies/downloads/)
+* [Install JavaFX](https://gluonhq.com/products/javafx/); retain the directory in which JavaFX is installed
 * Optional for Windows: Set up a system environment variable to compile the applications, along with other JavaFX-based programs, more easily.
     * Options -> Systems -> Advanced System Settings -> Environment Variables -> New (System Variables)
     * Variable name can be anything, such as JAVA_FX
     * Variable value should be: 
 ```--module-path "(full directory of your JavaFX libraries)" --add-modules=ALL-MODULE-PATH```
     * Test whether the environment variable is properly set up with Command Prompt using the command: ```echo %(your variable name)%```
-* Make sure your JavaFX and Java JDKs are properly set up by compiling sample Java/JavaFX files; instructions for file compilation are included later.
+* Make sure your JavaFX and Java JDKs are properly set up by compiling [sample Java/JavaFX files](https://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm); instructions for file compilation are included later.
 * Unzip the application into any desired folder - the application will generate .class files as it is compiled.
 
 ### Executing program
