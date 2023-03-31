@@ -4,6 +4,8 @@ A to-do list application that helps users keep track of and maintain daily tasks
 
 ## Description
 
+This program was made as a capstone project for Colgate University's Spring 2023 User Interfaces course.
+
 The program maintains a list of tasks that the user can add to and change. The tasks are meant to be habits that the user wants to reinforce and consistently complete every day. Thus, there is no visible deadline for each task; the user should aim to complete all their tasks by the end of the day. 
 
 The table on the left of the application contains a list of tasks that the user wants to complete at the end of the day. New tasks can be added to the table with the text field under the table. The user can use the checkbox on the table rows to mark tasks as completed. The X button on each row allows the user to delete tasks. The top progress bar denotes the percent of tasks the user has completed in a day; when all tasks are completed, the bar fills to full. 
