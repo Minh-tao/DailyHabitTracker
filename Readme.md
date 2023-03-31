@@ -14,9 +14,9 @@ The table on the left of the application contains a list of tasks that the user 
 
 The text field on top of the calendar denotes the current date the user is on; when the application is started, this text field is automatically set to the current date on the user's system time. When the user is finished with their day, they can press the "End the Current Day" button to move onto the next day, which would carry over all tasks the user had on their to-do list on the previous day and set them to being incomplete. 
 
-Moving onto a new day also saves the user's tasks and their completion statuses of the previous day; the user can see this information by navigating to the previous day on the calendar. When the calendar is on a day prior to the current date denoted above the calendar, the user can only view the to-do list; they cannot add new tasks or otherwise interact with the to-do list.
+Moving onto a new day also saves the user's tasks and their completion statuses of the previous day; the user can see this information by navigating to the previous day on the calendar. When the calendar is on a day prior to the current date denoted above the calendar, the user can only view the to-do list; they cannot add new tasks or otherwise interact with the to-do list, as seen in the image below.
 
-![Application when navigating to a date other than the current date](https://i.imgur.com/u6WvCGS.png)
+![Application when navigating to a date other than the current date](https://i.imgur.com/nYfPaxh.png)
 
 A desired feature of the application is to color-code date squares on the calendar to denote how much of their tasks the user completed on that date, but as of the March 30th version of this application, this feature is only hard-coded into the application as a demonstration/proof-of-concept.
 
