@@ -60,7 +60,7 @@ javac %(your variable name)% *.java
 ```
 If no errors are found during compilation, use the following command to run the application:
 ```
-java %(your variable name)% StudentHousing
+java %(your variable name)% DailyHabitTracker
 ``` 
 
 ## Known Issues and Unimplemented Features
