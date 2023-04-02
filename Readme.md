@@ -18,7 +18,7 @@ Moving onto a new day also saves the user's tasks and their completion statuses 
 
 ![Application when navigating to a date other than the current date](https://i.imgur.com/nYfPaxh.png)
 
-A desired feature of the application is to color-code date squares on the calendar to denote how much of their tasks the user completed on that date, but as of the March 30th version of this application, this feature is only hard-coded into the application as a demonstration/proof-of-concept.
+A desired feature of the application is to color-code date squares on the calendar to denote how much of their tasks the user completed on that date; this feature is intended to help the user keep track of how consistently they are sticking to their dailiy habits, but as of the March 30th version of this application, this feature is only hard-coded into the application as a demonstration/proof-of-concept.
 
 ## Getting Started
 
