@@ -6,19 +6,15 @@ A to-do list application that helps users keep track of and maintain daily tasks
 
 ## Description
 
-This program was made as a capstone project for Colgate University's Spring 2023 User Interfaces course.
-
-The program maintains a list of tasks that the user can add to and change. The tasks are meant to be habits that the user wants to reinforce and consistently complete every day. Thus, there is no visible deadline for each task; the user should aim to complete all their tasks by the end of the day. 
-
-The table on the left of the application contains a list of tasks that the user wants to complete at the end of the day. New tasks can be added to the table with the text field under the table. The user can use the checkbox on the table rows to mark tasks as completed. The X button on each row allows the user to delete tasks. The top progress bar denotes the percent of tasks the user has completed in a day; when all tasks are completed, the bar fills to full. 
-
-The text field on top of the calendar denotes the current date the user is on; when the application is started, this text field is automatically set to the current date on the user's system time. When the user is finished with their day, they can press the "End the Current Day" button to move onto the next day, which would carry over all tasks the user had on their to-do list on the previous day and set them to being incomplete. 
-
-Moving onto a new day also saves the user's tasks and their completion statuses of the previous day; the user can see this information by navigating to the previous day on the calendar. When the calendar is on a day prior to the current date denoted above the calendar, the user can only view the to-do list; they cannot add new tasks or otherwise interact with the to-do list, as seen in the image below.
+This program was made as a project for Colgate University's Spring 2023 User Interfaces course.
+The program maintains a list of tasks that the user can add to and change. The tasks are meant to be habits the user wants to consistently complete every day. Thus, there is no visible deadline for each task and the user should aim to complete all their tasks by the end of the day.
+The table on the left of the application contains a list of tasks that the user wants to complete by the end of the day. New tasks can be added to the table with the text field under the table. The user can use the checkbox on the table rows to mark tasks as completed. The X button on each row allows the user to delete tasks. The progress bar above the calendar and to-do list denotes the percentage of tasks the user has completed in a day; when all tasks are completed, the bar is full.
+The text field above the calendar denotes the current date the user is on. When the application is started, this text field is automatically set to the current date on the user's system time. When the user is finished with their day, they can press the "End the Current Day" button to move onto the next day, which would carry over all tasks the user had on their to-do list on the previous day and set them to being incomplete.
+Moving onto a new day also saves the user's tasks and their completion status of the previous day; the user can see this information by navigating to the previous day on the calendar. When the calendar is on a day prior to the current date denoted above the calendar, the user can only view the to-do list; they cannot add new tasks or interact with the to-do list as shown in the image below.
 
 ![Application when navigating to a date other than the current date](https://i.imgur.com/nYfPaxh.png)
 
-A desired feature of the application is to color-code date squares on the calendar to denote how much of their tasks the user completed on that date; this feature is intended to help the user keep track of how consistently they are sticking to their dailiy habits, but as of the March 30th version of this application, this feature is only hard-coded into the application as a demonstration/proof-of-concept.
+A desired feature of the application is to color-code date squares on the calendar to denote how much of their tasks the user completed on that date. This feature is intended to help the user keep track of how consistently they are sticking to their daily habits. As of the March 30th version of this application, this feature is only hard-coded into the application as a demonstration/proof-of-concept.
 
 The comments in the application's code are made to help more easily navigate its different components using the [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors) extension by Starlane Studios for VSCode.
 
